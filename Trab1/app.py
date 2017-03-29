@@ -8,13 +8,13 @@ def index(name):
 
     info = json.loads(name)
     cl = info['cliente']
-    msg = info['mensagem']
+    msg = info['msg']
     
     historico_mensagens.append({'cl': cl, 'msg': msg})
     
     msgs = {
             'title': 'Chat',
-            'content': historico_mensagens
+            'messages': historico_mensagens
             }
 
     return template('template.tpl', msgs)
