@@ -1,7 +1,7 @@
-##Chat
+## Chat
 Clientes e servidor, simulando um chat entre clientes.
 
-##Requirements
+## Requirements
 ```sh
 $ pip3 install bottle
 ```
